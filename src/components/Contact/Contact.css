@@ -1,0 +1,66 @@
+.contact-container{
+    height: 520px;
+    width: 92%;
+    margin: 10px;
+    border-radius: 9px;
+    background-color: #03202c;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    background-color: #03202c;
+    margin: 25px;
+    
+}
+.contact-name input, .contact-email input{
+ background-color: #03202c;
+ border:  1px solid white;
+ margin: 5px;
+ padding: 5px;
+ border-radius: 5px;
+ width: 100%;
+ color: white;
+}
+.contact-message textarea{
+    background-color: #03202c;
+ border:  1px solid white;
+ margin: 5px;
+ padding: 5px;
+ border-radius: 5px; 
+ width: 100%;
+ color: white;
+}
+.contact-name,.contact-email,.contact-message{
+    width: 75%;
+}
+.contact-submit button{
+    padding: 6px;
+    background-color: #03a1eb;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1rem;
+}
+.contact-submit button:hover{
+    background-color: #19b6ff;
+    cursor: pointer;
+}
+.submit{
+    height: 10vh;
+    background-color: #19b6ff; 
+    border-radius: 10px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
